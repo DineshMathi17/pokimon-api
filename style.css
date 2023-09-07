@@ -7,7 +7,9 @@ body {
     background-color: rgb(182, 211, 159);
 
 }
-
+.head{
+    text-align: center;
+}
 button {
     background-color: transparent;
     outline: none;
@@ -24,8 +26,6 @@ button {
     box-sizing: border-box;
     text-align: center;
     display: flex;
-
-
 }
 
 .pokemon__img {
@@ -42,7 +42,7 @@ button {
 }
 
 .pokemon__img img {
-    height: 200px;
+    height: 100px;
     width: 100%;
     margin-top: -5em;
     margin-right: 200px;
@@ -52,7 +52,7 @@ button {
 .buttons {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 320px;
     margin: 5em auto 5em;
 
 }
